@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>calc_média</title>
 </head>
+
 <body>
     <header>CALCULADORA DE MÉDIAS MUITO LEGAL</header>
     <section class="main" id="main">
         <div class="entradas" id="entradas">
-            
             <label for="nota1">Nota 1</label>
-            <input type="number" class="nota n1" name="nota1" min="0" step="0.01" maxlength="5">
+            <input type="number" class="nota n1" name="nota1" id="nota1" min="0" step="0.01" maxlength="5">
 
             <label for="nota2">Nota 2</label>
-            <input type="number" class="nota n2" name="nota2" min="0" step="0.01" maxlength="5">
+            <input type="number" class="nota n2" name="nota2" id="nota2" min="0" step="0.01" maxlength="5">
 
             <label for="nota3">Nota 3</label>
-            <input type="number" class="nota n3" name="nota3" min="0" step="0.01" maxlength="5">
+            <input type="number" class="nota n3" name="nota3" id="nota3" min="0" step="0.01" maxlength="5">
 
-            <input type="button" value="Calcular">
+            <input type="button" value="Calcular" id="calcularButton">
+
+            <p>Média: <span id="mediaResultado"></span></p>
+            <p>Nota necessária na Final: <span id="resultadoFinal"></span></p>
         </div>
     </section>
     <footer></footer>
 </body>
+<script src="assets/scripts/script.js"></script>
+
 </html>
