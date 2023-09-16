@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    background-color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+}
+
+.entradas {
+    background-color: aqua;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
